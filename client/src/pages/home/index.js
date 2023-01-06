@@ -5,7 +5,7 @@ import UserSearch from "./components/UserSearch";
 import UsersList from "./components/UsersList";
 import { io } from "socket.io-client";
 
-const socket = io('https://sheychat-udemy.onrender.com');
+const socket = io('https://whatsapp-clone-2.0.onrender.com');
 function Home() {
   const [searchKey, setSearchKey] = React.useState("");
   const { selectedChat, user } = useSelector((state) => state.userReducer);
